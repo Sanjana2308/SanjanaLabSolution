@@ -20,7 +20,7 @@ public class Driver {
 		Scanner in=new Scanner(System.in);
 		int ch=in.nextInt();
 		String department=null;
-		String emailAdd;
+		String emailAdd;//
 		switch(ch) {
 			case 1:
 				generatedEmail=c.email(e.getFirstName().toLowerCase(),e.getLastName().toLowerCase(),"tech");
